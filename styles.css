@@ -1,0 +1,29 @@
+* {
+    font-family: "Lucida Console", "Courier New", monospace;
+    margin: 0;
+}
+
+h1 {
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.opening {
+    background-color: #d1faff;
+    display: flex;
+    justify-content: space-around;
+}
+
+.opening-image {
+    border-radius: 50%;
+}
+
+.about-me {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.passion {
+    background-color: #9bd1e5;
+}
