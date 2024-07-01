@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NO:wght@100..400&display=swap');
+
 * {
     font-family: "Lucida Console", "Courier New", monospace;
     margin: 0;
@@ -7,6 +9,11 @@
 h1 {
     padding: 20px;
     background-color: #eddfef;
+}
+
+h2 {
+    font-family: "Playwrite NO", cursive;
+    color: rgb(50, 159, 50);
 }
 
 .opening {
@@ -34,12 +41,13 @@ h1 {
     font-size: xx-large;
 }
 
-/*2nd Section*/
+/*Passion section*/
 .passion {
     background-color: #d5cfe1;
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .passion-info {
@@ -58,14 +66,66 @@ h1 {
     width: 400px;
 }
 
-/* 3rd section */
+.prog-pic {
+    border-radius: 20px;
 
-.involve-section {}
+}
+
+/* Involvements section */
+
+.involve-section {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.involve-header {
+    text-align: center;
+}
+
+.involve-section-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+}
+
+.involve-pic {
+    border-radius: 20px;
+}
+
+li {
+    margin: 10px;
+    font-size: x-large;
+}
+
+.resize {
+    width: 500px;
+    height: auto;
+}
+
+.resize {
+    width: 400px;
+    height: auto;
+}
+
+/* Contact Section */
+.contact-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(201, 198, 198);
+}
 
 
 /* footer */
 .footer {
-    background-color: #eddfef;
+    background-color: black;
     text-align: center;
+    color: white;
     padding: 20px;
 }
